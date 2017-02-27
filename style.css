@@ -1,0 +1,46 @@
+body {
+    font-family: cursive;
+    background-color: black;
+    color: red
+}
+
+#div_background {
+    ;
+}
+
+#content {
+    background-image: url(images/persona.jpg);
+    color: black
+}
+
+.persona {
+    color: white
+}
+
+h3 {
+    color: blueviolet
+}
+
+h1 {
+    text-transform: uppercase
+}
+
+h1,
+h3 {
+    font-family: fantasy, serif, monospace
+}
+
+footer {
+    font-size: 10px;
+    font-style: italic;
+}
+
+a {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none
+}
+
+ul {
+    list-style-type: square
+}
