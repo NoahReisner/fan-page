@@ -1,12 +1,14 @@
-<!--a different font for the default body text
-a different font for the headings
-use CSS to set one level of heading text to all capital letters
-decrease and italicize the font for the footer
-use a different list marker
-bold and increase the font size for your link to the other web page
-remove the underline from the link to the other web page
-add a div with a background image to page
-add a favorite icon to your page.-->
+<!--
+Add a small background image to an element so that it that does not fill the entire element space, and it positioned to the side of the element content
+Use CSS to set a width of 80% to your main content and center it
+Use padding on the main elements to set the content away from the edges (element border)
+Add a background gradient to the body using CSS
+Set one level of headings to have a transparent background-color
+Add padding (at least top & bottom) to the heading with the transparent background-color
+Add rounded corners to the heading with the transparent background-color
+Use margins to add space before (above) each level of headings to space the content
+Add a text shadow to one level of headings
+Use a box shadow on the page.-->
 
 
 
@@ -21,13 +23,18 @@ add a favorite icon to your page.-->
 </head>
 
 <body>
+    <div id="opacity_h1">
     <h1><span class="persona">Persona 4</span> Fan Page!!!! </h1>
+    </div>
+    <div id="center_content">
     <main>
         <h3>Decription</h3>
         <p><span class="persona">Persona 4</span> is Jrpg that was released origanally for the PS2 and was later released on PS Vita and PS3.</p>
-        <h3>Characters</h3>
+        
         <div id="content">
+            
             <a href="images/Persona_4.png"><img src="images/Persona_4.png" height="150" alt="View full image"></a>
+            <h3>Characters</h3>
             <ul>
                 <li>Yu Narokami</li>
                 <li>Chie satonaka</li>
@@ -38,9 +45,25 @@ add a favorite icon to your page.-->
                 <li>Kanji Tatsumi</li>
             </ul>
         </div>
+        <div>
+            <h3>Evolution of the franchise!</h3>
+            The franchise first appeared on the PS1. Although The franchise did not become a hit until it appeared on the PS2 with Persona 3. Persona 3 the first game in the franchise to include the social link system. The addition of that system made persona the franchise it is today.
+        </div>
+        <div class="card">
+            <h4>Explanation of the Social Link System</h4>
+            The social link system is very hard to explain. So here is a list of what it does.
+            <Ul>
+                <li>Gives more character devolopment to supporting characters.</li>
+                <li>Gives supporting characters support skills for use in battles.</li>
+                <li>Allows for high level personas in persona fusion.</li>
+                <li>In some case provides extra ending content to be unlocked.</li>
+            </Ul>
+        </div>
         <a href="http://megamitensei.wikia.com/wiki/Persona_4">Click for  more info on Perona 4</a>
     </main>
+        </div>
     <footer>Copyright &copy Noah Reisner 2017 Email Noah@Reisner.com</footer>
+    
 </body>
 
 </html>
