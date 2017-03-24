@@ -6,11 +6,14 @@ body {
 
 #content {
     background-image: url(images/persona.jpg);
-    background-size: cover;
+    background-size:cover;
     background-repeat: no-repeat;
     color: black;
     border-radius: 3px;
-    box-shadow: 2px 2px 1px
+    box-shadow: 2px 2px 1px;
+background-attachment: fixed;
+    background-position: center;
+    
 }
 
 #center_content {
