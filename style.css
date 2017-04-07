@@ -6,14 +6,13 @@ body {
 
 #content {
     background-image: url(images/persona.jpg);
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
     color: black;
     border-radius: 3px;
     box-shadow: 2px 2px 1px;
-background-attachment: fixed;
+    background-attachment: fixed;
     background-position: center;
-    
 }
 
 #center_content {
@@ -30,14 +29,35 @@ background-attachment: fixed;
     margin-top: 10px
 }
 
-.card {
-    background-image: url(images/persona_4_card_by_kaze_fox-d6dzofk.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: right;
+#card {
+    float: left;
+    margin: auto;
+    height: 300px;
+    width: auto;
+    opacity: 0.9;
 }
 
-.fixed_position {position: fixed}
+#top_margin {
+    margin: 5% 0px
+}
+
+.card_div {
+    background-color: hsla(50, 100%, 51%, 1.0);
+    overflow: auto;
+    width: 100%;
+    color: red;
+    border-radius: 3px;
+    box-shadow: 2px 2px 1px;
+    color: black
+}
+
+.div {
+    margin: 10% 1px
+}
+
+.fixed_position {
+    position: fixed
+}
 
 .grey_shadow {
     text-shadow: 1px 1px .5px darkgrey
