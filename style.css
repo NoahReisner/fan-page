@@ -1,24 +1,38 @@
 body {
     font-family: cursive;
-    background-color: whitesmoke;
     background-image: linear-gradient(red, darkred);
 }
 
+.lock_left {
+    float: left;
+
+    background-color: green;
+    position: fixed;
+}
+nav {float: left;
+  position: fixed;
+margin: 10% 1px;
+
+background-color: green;
+padding: 30px}
+
 #content {
     background-image: url(images/persona.jpg);
-    background-size: cover;
+    background-size: auto;
     background-repeat: no-repeat;
     color: black;
-    border-radius: 3px;
-    box-shadow: 2px 2px 1px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 3px;
     background-attachment: fixed;
-    background-position: center;
+    background-position: right;
+    background-color: hsla(59, 95%, 56%, 1.0);
 }
 
 #center_content {
     width: 80%;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+    padding:inherit;
 }
 
 #opacity_h1 {
@@ -27,6 +41,11 @@ body {
     border-radius: 5px;
     margin-bottom: 10px;
     margin-top: 10px
+}
+
+#character_img_size {
+    height: 10px;
+    width: 10px
 }
 
 #card {
@@ -52,7 +71,7 @@ body {
 }
 
 .div {
-    margin: 10% 1px
+    margin: 10% 1px;
 }
 
 .fixed_position {
@@ -67,8 +86,13 @@ body {
     color: white
 }
 
+.persona_4 {
+    background-color: yellow;
+    text-decoration-style: double;
+}
+
 h3 {
-    color: blueviolet;
+    color: hsla(225, 90%, 40%, 1.0);
     font-family: fantasy, serif, monospace;
     margin-top: 30px;
     text-shadow: 1px 1px black;
@@ -91,7 +115,9 @@ footer {
 }
 
 main {
-    padding: 15px
+    padding: 15px;
+    overflow: hidden;
+
 }
 
 a {
