@@ -1,71 +1,116 @@
-<!--
-Add a small background image to an element so that it that does not fill the entire element space, and it positioned to the side of the element content
-Use CSS to set a width of 80% to your main content and center it
-Use padding on the main elements to set the content away from the edges (element border)
-Add a background gradient to the body using CSS
-Set one level of headings to have a transparent background-color
-Add padding (at least top & bottom) to the heading with the transparent background-color
-Add rounded corners to the heading with the transparent background-color
-Use margins to add space before (above) each level of headings to space the content
-Add a text shadow to one level of headings
-Use a box shadow on the page.-->
-
-
-
 <!DOCTYPE html>
+
+
 <html lang="eng">
 
 <head>
-    <link rel="icon" href=images/Persona_4.png type="image/x-icon">
+    <link rel="icon" href="images/Persona_4.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <title>Persona 4 Fan Page!</title>
+    <title>Persona Fan Page!</title>
     <meta charset="utf-8">
+
+    <style>
+        #card {
+            float: left;
+            height: 300px;
+            margin: auto;
+            opacity: 0.9;
+            width: auto;
+        }
+        
+        #center_content {
+            background-color: ;
+            margin-left: auto;
+            margin-right: auto;
+            min-width: 960px;
+            padding: 0;
+            width: 80%;
+        }
+        
+        #character_img_size {
+            height: 10px;
+            width: 10px
+        }
+        
+        #opacity_header {
+            background-color: #2D4671;
+            border-color: black;
+            border-radius: 5px;
+            margin: auto;
+            opacity: .9;
+        }
+        
+        #top_margin {
+            margin: 5% 0px
+        }
+    </style>
 </head>
 
+
 <body>
-
-
-    <header>
-
-        <h1 class="fixed_position" ; id="opacity_h1"><span class="persona">Persona 4</span> Fan Page!!!! </h1>
-    </header>
-    <div class="lock_left">
-        <nav>
-            <ul>
-                <li><a href="page2.html">page2</a></li>
-            </ul>
-        </nav>
-    </div>
     <div id="center_content">
+
+        <header id="opacity_header">
+            <h1><span class="persona">Persona </span> Fan Page!!!! </h1>
+        </header>
+
+
         <main>
-            <div>
+            <div class="div">
 
 
-                <h3>Decription</h3>
+                <h2>Decription</h2>
                 <p><span class="persona">Persona</span> is Jrpg series that was released for the PS1 PS2 and was later released on PS Vita and PS3.</p>
             </div>
             <div class="div">
                 <h3>Evolution of the franchise!</h3>
-                <p>The franchise first appeared on the PS1. Although The franchise did not become a hit until it appeared on the PS2 with Persona 3. Persona 3 the first game in the franchise to include the social link system. The addition of that system
-                    made persona the franchise it is today.</p>
+                <p>The franchise first appeared on the PS1. Although The franchise did not become a hit until it appeared on the PS2 with Persona 3. Persona 3 the first game in the franchise to include the social link system. The addition of that system made persona the franchise it is today.</p>
             </div>
-            <div class="card_div" ; class="div">
-                <img id="card" ; src="images/persona_4_card_by_kaze_fox-d6dzofk.png">
-                <h4>Explanation of the Social Link System</h4>
-                <p>The social link system is very hard to explain. So here is a list of what it does.
-                    <Ul>
-                        <li>Gives more character devolopment to supporting characters.</li>
-                        <li>Gives supporting characters support skills for use in battles.</li>
-                        <li>Allows for high level personas in persona fusion.</li>
-                        <li>In some case provides extra ending content to be unlocked.</li>
-                    </Ul>
-                </p>
-            </div>
-            <a href="http://megamitensei.wikia.com/wiki/Persona_4">Click for  more info on Perona 4</a>
-        </main>
-    </div>
-    <footer>Copyright &copy Noah Reisner 2017 Email Noah@Reisner.com</footer>
 
+            <div id="content" ; class="persona_4">
+
+                <a href="images/Persona_4.png"><img src="images/Persona_4.png" height="150" alt="View full image"></a>
+                <h2>Why Persona 4 is amazing</h2>
+                <ol>
+                    <li>Made with The style of the 80's</li>
+                    <ul>
+                        <li>The music is made to sound like a modern 80's funk band is playing.</li>
+                        <li>The menus uses transitions that seem to be inspired by 80's cartoons</li>
+                        <li>The entire game uses yellow pallete for everything.</li>
+                    </ul>
+                    <li>Memerable characters</li>
+                    <ul>
+                        <li>Each character you meet a fleshed out story that make you feel want to be their friend</li>
+                        <li>You are able to choose whose you want to hang out with you free time. This makes each character you spend time with even more memorable.</li>
+                    </ul>
+                </ol>
+
+                <div class="card_div">
+                    <img id="card" ; src="images/persona_4_card_by_kaze_fox-d6dzofk.png">
+
+                    <h3>Characters</h3>
+                    <ul>
+                        <li>Yu Narokami</li>
+                        <li>Chie satonaka</li>
+                        <li>Rise Kujikawa</li>
+                        <li>Naoto Shirogame</li>
+                        <li>Yosuke Hanamura</li>
+                        <li>Yukiko Amagi</li>
+                        <li>Kanji Tatsumi</li>
+                    </ul>
+
+                    <a href="http://megamitensei.wikia.com/wiki/Persona_4">Click for  more info on Perona 4</a>
+                </div>
+            </div>
+            <div class="persona_3">
+                <h2>Persona 3</h2>
+
+            </div>
+        </main>
+        <footer>Copyright &copy; Noah Reisner 2017 Email <a href="emailto: Noah@Reisner.com">Noah@Reisner.com</a>
+            <a href="http://paletton.com/palette.php?uid=35C0V0kllll6-1edXbisJvoHjXl">Paletton</a></footer>
+    </div>
 </body>
+
 
 </html>

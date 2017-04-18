@@ -1,85 +1,24 @@
-body {
-    font-family: cursive;
-    background-image: linear-gradient(red, darkred);
-}
-
-.lock_left {
-    float: left;
-
-    background-color: green;
-    position: fixed;
-}
-nav {float: left;
-  position: fixed;
-margin: 10% 1px;
-
-background-color: green;
-padding: 30px}
-
-#content {
-    background-image: url(images/persona.jpg);
-    background-size: auto;
-    background-repeat: no-repeat;
-    color: black;
-    border-radius: 5px;
-    box-shadow: 4px 4px 3px;
-    background-attachment: fixed;
-    background-position: right;
-    background-color: hsla(59, 95%, 56%, 1.0);
-}
-
-#center_content {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    padding:inherit;
-}
-
-#opacity_h1 {
-    background-color: hsla(240, 100%, 20%, 0.50);
-    border-color: black;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    margin-top: 10px
-}
-
-#character_img_size {
-    height: 10px;
-    width: 10px
-}
-
-#card {
-    float: left;
-    margin: auto;
-    height: 300px;
-    width: auto;
-    opacity: 0.9;
-}
-
-#top_margin {
-    margin: 5% 0px
-}
-
 .card_div {
-    background-color: hsla(50, 100%, 51%, 1.0);
-    overflow: auto;
-    width: 100%;
-    color: red;
     border-radius: 3px;
-    box-shadow: 2px 2px 1px;
-    color: black
+    color: black;
+    margin-top: 0;
+    overflow: auto;
+    padding-top: 0;
+    width: 100%;
 }
 
 .div {
-    margin: 10% 1px;
-}
-
-.fixed_position {
-    position: fixed
+    margin: 0;
 }
 
 .grey_shadow {
     text-shadow: 1px 1px .5px darkgrey
+}
+
+.lock_left {
+    background-color: green;
+    float: left;
+    position: fixed;
 }
 
 .persona {
@@ -87,22 +26,57 @@ padding: 30px}
 }
 
 .persona_4 {
-    background-color: yellow;
-    text-decoration-style: double;
+    background-color: #FCFF00;
+    background-position: right;
+    border-radius: 5px;
+    box-shadow: 4px 4px 3px;
+    color: black;
+    margin: 0 5px;
+    padding-bottom: 0;
+    padding-left: 10px;
+    padding-top: 0;
+}
+
+.persona_3 {
+    background-color: #1F51A6;
+    border-radius: 5px;
+    box-shadow: 4px 4px 3px;
+    margin: 0 5px;
+    min-height: 500px;
+}
+
+a {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+body {
+    background-image: linear-gradient( #F8191F, #FF0007);
+    font-family: cursive;
+    margin: 0 10%;
+    min-width: 960px;
+}
+
+header {
+    height: 50px;
+    margin: 0 5px;
+    min-width: 960px;
+    position: fixed;
+    text-align: center;
 }
 
 h3 {
-    color: hsla(225, 90%, 40%, 1.0);
+    color: #2D4671;
     font-family: fantasy, serif, monospace;
     margin-top: 30px;
     text-shadow: 1px 1px black;
 }
 
 h1 {
-    margin-left: 5px;
-    text-transform: uppercase;
     font-family: fantasy, serif, monospace;
-    margin-top: 30px;
+    margin: 5px;
+    text-transform: uppercase;
 }
 
 h4 {
@@ -110,22 +84,31 @@ h4 {
 }
 
 footer {
-    font-size: 10px;
+    font-size: 12px;
     font-style: italic;
+    text-align: center;
+}
+
+footer a {
+    color: black;
+    font-size: 12px;
+    font-style: italic
 }
 
 main {
-    padding: 15px;
     overflow: hidden;
-
+    padding: 4% 0;
 }
 
-a {
-    font-size: 20px;
-    font-weight: bold;
-    text-decoration: none
+nav {
+    background-color: green;
+    float: left;
+    margin: 10% 1px;
+    padding: 30px;
+    position: fixed;
 }
 
 ul {
-    list-style-type: square
+    clear: right;
+    list-style-type: square;
 }
