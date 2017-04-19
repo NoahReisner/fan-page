@@ -12,7 +12,7 @@
 }
 
 .grey_shadow {
-    text-shadow: 1px 1px .5px darkgrey
+    text-shadow: 1px 1px .5px darkgrey;
 }
 
 .lock_left {
@@ -22,14 +22,15 @@
 }
 
 .persona {
-    color: white
+    color: #ffffff;
+    text-shadow: 1px 1px black;
 }
 
 .persona_4 {
     background-color: #FCFF00;
     background-position: right;
     border-radius: 5px;
-    box-shadow: 4px 4px 3px;
+    box-shadow: 0px 100px 0px #FCFF00;
     color: black;
     margin: 0 5px;
     padding-bottom: 0;
@@ -38,10 +39,10 @@
 }
 
 .persona_3 {
-    background-color: #1F51A6;
-    border-radius: 5px;
-    box-shadow: 4px 4px 3px;
+    background-color: #FF0007;
     margin: 0 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
     min-height: 500px;
 }
 
@@ -52,7 +53,7 @@ a {
 }
 
 body {
-    background-image: linear-gradient( #F8191F, #FF0007);
+    background-image: linear-gradient(to bottom, #1F51A6 0%, #1F51A6 18%, #FCFF00 0%, #FCFF00 64.23%, #FF0007 0%, #FF0007 2%);
     font-family: cursive;
     margin: 0 10%;
     min-width: 960px;
@@ -70,7 +71,6 @@ h3 {
     color: #2D4671;
     font-family: fantasy, serif, monospace;
     margin-top: 30px;
-    text-shadow: 1px 1px black;
 }
 
 h1 {
