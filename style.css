@@ -30,7 +30,6 @@
     background-color: #FCFF00;
     background-position: right;
     border-radius: 5px;
-    box-shadow: 0px 100px 0px #FCFF00;
     color: black;
     margin: 0 5px;
     padding-bottom: 0;
@@ -40,9 +39,9 @@
 
 .persona_3 {
     background-color: #FF0007;
-    margin: 0 5px;
-    border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin: 0 5px;
     min-height: 500px;
 }
 
