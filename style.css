@@ -38,7 +38,7 @@
 }
 
 .persona_3 {
-    background-color: #FF0007;
+    background-color: #1F4FA6;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     margin: 0 5px;
@@ -52,7 +52,7 @@ a {
 }
 
 body {
-    background-image: linear-gradient(to bottom, #1F51A6 0%, #1F51A6 18%, #FCFF00 0%, #FCFF00 64.23%, #FF0007 0%, #FF0007 2%);
+    background-image: linear-gradient(to bottom, #1F51A6 0%, #1F51A6 35%, #FCFF00 0%, #FCFF00 81%, #FF0007 0%, #FF0007 2%);
     font-family: cursive;
     margin: 0 10%;
     min-width: 960px;
@@ -100,11 +100,11 @@ main {
 }
 
 nav {
-    background-color: green;
-    float: left;
-    margin: 10% 1px;
-    padding: 30px;
+    min-width: 980px;
+    padding-top: 30px;
     position: fixed;
+    text-align: center;
+    width: 80%;
 }
 
 ul {
